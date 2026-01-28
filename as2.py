@@ -1,6 +1,6 @@
 emp_name = input("Enter Employee Name: ")
 emp_id = input("Enter Employee ID: ")
-basic_salary = float(input("Enter Basic Salary: "))
+basic_salary = float(input("Enter your Basic Salary: "))
 
 hra = 0.20 * basic_salary
 da = 0.10 * basic_salary
@@ -16,3 +16,4 @@ print("HRA:", hra)
 print("DA:", da)
 print("PF:", pf)
 print("Net Salary:", net_salary)
+
